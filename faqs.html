@@ -21,6 +21,20 @@
 </head>
 
 <body>
+    <div id="loader">
+        <span class="loader"></span>
+    </div>
+    <!-- <the start of iframe video -->
+    <div id="iframe_container" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeIframe()">&times;</a>
+        <div class="overlay-content">
+            <iframe allowfullscreen
+                style="position:absolute; top:0px; left:0px; width:100%; height:100%; border: none; overflow: hidden;"
+                src="https://www.youtube.com/embed/910niYAKKmg" frameborder="0"></iframe>
+        </div>
+    </div>
+    <!-- <the end of iframe video -->
+
     <!-- the start of Header -->
     <header>
 
@@ -70,8 +84,8 @@
                     <h1>
                         <span>Got <span class="hassle-free"> questions</span> about TechieMatter?</span>
                     </h1>
-                    <p>Whether you`re an employer, a techie, a Tech Verifier, or anyone who wants to work with
-                        TechieMatter, you`ll find all
+                    <p>Whether you’re an employer, a techie, a Tech Verifier, or anyone who wants to work with
+                        TechieMatter, you’ll find all
                         your frequently-asked questions (FAQs) answered here.</p>
 
                 </div>
@@ -114,7 +128,7 @@
                             engineers, web designers,
                             business analysts, tech leads, product managers, data scientists, CTOs, hardware engineers,
                             agile coaches,…among others.
-                            If it`s a tech role, we`ve got you covered.</p>
+                            If it’s a tech role, we’ve got you covered.</p>
                     </div>
                 </div>
                 <div class="tech_tab_content_quest">
@@ -122,7 +136,8 @@
                         <span onclick="showAnswer(event,'Emp_q_3')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Emp_q_3">
-                        <p>You can submit a hiring request by <a class="a_link" href="">clicking here.</a> </p>
+                        <p>You can submit a hiring request by <a class="a_link" target="_blank"
+                                href="https://www.techiematter.com/companySignup">clicking here.</a> </p>
                     </div>
                 </div>
                 <div class="tech_tab_content_quest">
@@ -134,12 +149,13 @@
                             can
                             hire your entire tech
                             team with TechieMatter.</p>
-                        <p> Our team will get in touch to review all the information you`ve submitted and provide a
+                        <p> Our team will get in touch to review all the information you’ve submitted and provide a
                             consultation if needed.</p>
-                        <p> Then, we`ll proceed with finding the most suitable and talented techies that meet your
+                        <p> Then, we’ll proceed with finding the most suitable and talented techies that meet your
                             needs.
-                            Post your hiring/assessment/interviewing needs and we`ll handle the rest.</p>
-                        <p><a class="a_link" href=""> Submit your hiring
+                            Post your hiring/assessment/interviewing needs and we’ll handle the rest.</p>
+                        <p><a class="a_link" target="_blank" href="https://www.techiematter.com/companySignup"> Submit
+                                your hiring
                                 requests here</a> and get your
                             first free consultation.</p>
                     </div>
@@ -190,13 +206,13 @@
                         <p>TechieMatter Expert Interview <br> We assign a tech expert to interview the candidate with an
                             average
                             1 hour per interview.
-                            The fees are determined based on the Expert`s hourly rate.</p>
+                            The fees are determined based on the Expert’s hourly rate.</p>
                         <p> TechieMatter Onboarding is still in beta. <br> We help you onboard
                             your global remote techies, financially and legally. This includes compliance, payroll,
                             taxes,
                             insurance, among other
                             benefits.</p>
-                        <p> For more information, you can email us at info@techiematter.com <br> Note: If you`d like to
+                        <p> For more information, you can email us at info@techiematter.com <br> Note: If you’d like to
                             use one or more
                             products for a single role, a discount will be applied.</p>
                     </div>
@@ -217,8 +233,8 @@
                         <span onclick="showAnswer(event,'Emp_q_8')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Emp_q_8">
-                        <p>No, you don`t need to pay to create an account on TechieMatter. You only pay when you decide
-                            you`re ready to hire.</p>
+                        <p>No, you don’t need to pay to create an account on TechieMatter. You only pay when you decide
+                            you’re ready to hire.</p>
                     </div>
                 </div>
                 <div class="tech_tab_content_quest">
@@ -226,7 +242,7 @@
                         <span onclick="showAnswer(event,'Emp_q_9')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Emp_q_9">
-                        <p>To pay for TechieMatter`s products, you can pay by credit card, debit card, or via bank
+                        <p>To pay for TechieMatter’s products, you can pay by credit card, debit card, or via bank
                             transfer.
                         </p>
                     </div>
@@ -243,16 +259,18 @@
                         <p> You can determine the location
                             of
                             the candidates you want
-                            to hire in the<a class="a_link" href=""> hiring request form.</a></p>
+                            to hire in the<a class="a_link" target="_blank"
+                                href="https://techiematter.com/company/add-job"> hiring request form.</a></p>
                     </div>
                 </div>
                 <div class="tech_tab_content_quest">
-                    <h1>If I don`t have a tech background and want to hire techies. What do I do?
+                    <h1>If I don’t have a tech background and want to hire techies. What do I do?
                         <span onclick="showAnswer(event,'Emp_q_11')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Emp_q_11">
-                        <p>No worries! We`ve got you covered. Book a <a class="a_link" href=""> free 15-minute
-                                consultation</a> with our team and we`ll
+                        <p>No worries! We’ve got you covered. Book a <a class="a_link" target="_blank"
+                                href="https://meetings-eu1.hubspot.com/muhammad-abu-elgheit"> free 15-minute
+                                consultation</a> with our team and we’ll
                             answer all your questions
                             and fulfill your hiring needs.</p>
                     </div>
@@ -262,7 +280,7 @@
                         <span onclick="showAnswer(event,'Emp_q_12')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Emp_q_12">
-                        <p>No, TechieMatter is not a job board, HR agency, or a software house. You won`t sign up and
+                        <p>No, TechieMatter is not a job board, HR agency, or a software house. You won’t sign up and
                             find
                             hundreds of CVs to
                             choose from. We match you with candidates after you submit your hiring needs.</p>
@@ -289,7 +307,7 @@
                         <span onclick="showAnswer(event,'Emp_q_13')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Emp_q_13">
-                        <p>Unfortunately, not. We`re focused on solving the challenges of Tech Recruitment only.
+                        <p>Unfortunately, not. We’re focused on solving the challenges of Tech Recruitment only.
                             However, we
                             can refer you to other
                             businesses who can help you with non-tech roles. Some of them are our partners.</p>
@@ -305,8 +323,8 @@
                     </h1>
                     <div class="show_answer" id="Verifiers_q_1">
                         <p>Tech Verifiers are experienced individuals who recommend talented techies to TechieMatter.
-                            They also `verify`
-                            candidates` areas of expertise and evaluate them to ensure they`re the right fit for an open
+                            They also ‘verify’
+                            candidates’ areas of expertise and evaluate them to ensure they’re the right fit for an open
                             role.</p>
                         <p> Our Tech Verifiers
                             can be senior tech recruiters, senior techies, tech trainers, coaches, consultants, or
@@ -319,7 +337,8 @@
                         <span onclick="showAnswer(event,'Verifiers_q_2')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Verifiers_q_2">
-                        <p>You can apply to be a <a href="" class="a_link">Tech Verifier here.</a></p>
+                        <p>You can apply to be a <a href="https://beta.techiematter.com/RecuriterSignup" target="_blank"
+                                class="a_link">Tech Verifier here.</a></p>
                     </div>
                 </div>
                 <div class="tech_tab_content_quest">
@@ -330,7 +349,7 @@
                         <p>If you think you have what it takes to be a Tech Verifier, you can register with
                             TechieMatter. The support team will get
                             in touch with you for a video interview.</p>
-                        <p> If accepted, you`ll be onboarded to the
+                        <p> If accepted, you’ll be onboarded to the
                             TechieMatter platform and you can begin
                             with a trial job.</p>
                     </div>
@@ -341,15 +360,15 @@
                         <span onclick="showAnswer(event,'Verifiers_q_4')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Verifiers_q_4">
-                        <p>You will get an email from TechieMatter saying `There is a job matching your expertise.</p>
+                        <p>You will get an email from TechieMatter saying ‘There is a job matching your expertise.</p>
                     </div>
                 </div>
                 <div class="tech_tab_content_quest">
-                    <h1>I signed up and got accepted as a Tech Verifier. What`s next?
+                    <h1>I signed up and got accepted as a Tech Verifier. What’s next?
                         <span onclick="showAnswer(event,'Verifiers_q_5')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Verifiers_q_5">
-                        <p><a href="" class="a_link">Watch Video.</a></p>
+                        <p><a style="cursor: pointer;" id="open_video_btn" onclick="openIframe()" class="a_link">Watch Video.</a></p>
                     </div>
                 </div>
                 <div class="tech_tab_content_quest">
@@ -358,7 +377,7 @@
                     </h1>
                     <div class="show_answer" id="Verifiers_q_6">
                         <p>It depends on the quality of your recommendations and your availability to work with
-                            TechieMatter. <br> We`ve had Tech
+                            TechieMatter. <br> We’ve had Tech
                             Verifiers who have earned over six figures in two months.</p>
                         <p> There are two ways to get paid as
                             a Tech Verifier:</p>
@@ -374,10 +393,10 @@
                         <span onclick="showAnswer(event,'Verifiers_q_7')" class="expand_icon"></span>
                     </h1>
                     <div class="show_answer" id="Verifiers_q_7">
-                        <p>No, being a Tech Verifier with TechieMatter isn`t a full-time role. Consider it a side hustle
+                        <p>No, being a Tech Verifier with TechieMatter isn’t a full-time role. Consider it a side hustle
                             that provides you with
                             additional income.</p>
-                        <p> It`s not a full-time commitment, but you can get financial rewards that
+                        <p> It’s not a full-time commitment, but you can get financial rewards that
                             exceed your full-time
                             earnings.</p>
                     </div>
@@ -391,7 +410,7 @@
                     <div class="show_answer" id="Talents_q_1">
                         <p>At the moment, joining TechieMatter is by invite-only. However, if you have 2+ years of
                             experience, you can submit your
-                            CV at talents@techiematter.com. Our team will review your credentials and get back to you.
+                            CV at talents@techiematter.com . Our team will review your credentials and get back to you.
                         </p>
                     </div>
                 </div>
@@ -402,7 +421,8 @@
                     <div class="show_answer" id="Talents_q_2">
                         <p>No, we will never ask you to pay money to join. If someone suggests that you can pay to join,
                             please report them to
-                            <a target="_blank" class="a_link" href="mailto:info@techiematter.com">info@techiematter.com</a>
+                            <a target="_blank" class="a_link"
+                                href="mailto:info@techiematter.com">info@techiematter.com</a>
                         </p>
                     </div>
                 </div>
@@ -413,7 +433,7 @@
         </section>
         <!--the End of faqs_for section-->
 
-       
+
         <!--the start of footer section-->
         <footer class="footer">
             <div class="container">
@@ -429,7 +449,7 @@
                             </a>
                         </div>
                         <div class="footer_icon">
-                            <a target="_blank" href="https://www.youtube.com/channel/UCqyzoNRzk_jEUsgKeUDupZQ">
+                            <a target="_blank" href="https://www.youtube.com/@TechHiringArm">
                                 <img loading="lazy" src="./assets/images/youtube.svg" alt="youtube">
                             </a>
                         </div>

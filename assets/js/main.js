@@ -1,5 +1,5 @@
 // Get the element with id="defaultOpen" and click on it
-if(document.getElementById("defaultOpen")) {
+if (document.getElementById("defaultOpen")) {
     document.getElementById("defaultOpen").click();
 }
 function openRole(evt, role) {
@@ -23,7 +23,7 @@ function openRole(evt, role) {
     evt.currentTarget.className += " active";
 }
 
-function showAnswer(event,answer) {
+function showAnswer(event, answer) {
     const currentAnswer = document.getElementById(answer);
     event.currentTarget.classList.toggle("active");
     if (currentAnswer.style.display === "block") {
@@ -36,9 +36,12 @@ function showAnswer(event,answer) {
 
 function openIframe() {
     document.getElementById("iframe_container").style.width = "100%";
-  }
-  
-  function closeIframe() {
+}
+
+function closeIframe() {
     document.getElementById("iframe_container").style.width = "0%";
-  }
-  
+}
+$(window).on('load', function () {
+    $('#loader').hide();
+    console.log('dsdsdsd');
+})
