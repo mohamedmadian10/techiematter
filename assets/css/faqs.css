@@ -1,0 +1,109 @@
+.main-header {
+    align-items: center;
+}
+
+#faqs_for {
+    width: 90%;
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashed_text {
+    margin: 32px auto;
+    max-width: 964px;
+    border: 2px dashed #62C5FA;
+    border-radius: 20px;
+    padding: 32px;
+    flex-direction: column;
+    min-width: 90%;
+}
+
+#faqs_for h1 {
+    color: #061455;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 12px 0;
+    padding: 0 16px 0 0;
+}
+
+.tech_tab_content_quest:not(:last-of-type) {
+    border-bottom: 2px dashed #62C5FA;
+    padding: 16px 0;
+}
+
+.tech_tab_content h1 {
+    color: #061455;
+    font-weight: bold;
+    position: relative;
+}
+
+.tech_tab_content p {
+    color: #061455;
+    font-size: 20px;
+    opacity: .6;
+    width: 100%;
+    margin: 16px 0;
+    font-weight: 500;
+}
+.tech_tabs button {
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    margin: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 16px 24px;
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: bold;
+    color: #061455;
+}
+
+.expand_icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.a_link {
+    color: #061455;
+    text-decoration: underline !important;
+}
+
+a.a_link:hover {
+    color: #061455 !important;
+}
+
+.show_answer {
+    display: none;
+}
+
+.expand_icon:after {
+    content: '\002B';
+    color: #061455;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.expand_icon.active:after {
+    content: "\2212";
+}
+
+@media(max-width: 640px) {
+    #faqs_for h1 {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+
+    .tech_tab_content p {
+        font-size: 16px;
+    }
+    .tech_tabs button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}

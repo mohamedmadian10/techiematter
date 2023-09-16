@@ -1,0 +1,139 @@
+
+#find_techies_now {
+    width: 95%;
+    margin: auto;
+}
+
+.find_techies_now_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 43px;
+}
+
+.find_techies_now_heading,
+.find_techies_now_details {
+    width: 50%;
+}
+
+.find_techies_now_img {
+    position: absolute;
+    max-width: 550px;
+    right: 0;
+}
+
+.find_techies_now_img img {
+    width: 100%;
+    max-height: 600px;
+}
+
+.find_techies_now_heading h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.find_techies_now_details p {
+    opacity: .6;
+    color: #061455;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 16px 0;
+}
+
+.evaluate_techies_now_wrapper {
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 43px;
+    place-items: flex-end;
+}
+.evaluate_techies_now_img {
+    position: absolute;
+    max-width: 50%;
+    left: 0;
+    padding: 0 16px;
+}
+.evaluate_techies_now_img img {
+    width: 100%;
+}
+
+.start_hairning {
+    justify-content: start
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 75px 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 1024px) {
+    .find_techies_now_wrapper, .evaluate_techies_now_wrapper {
+        padding: 24px;
+        align-items: center;
+    }
+
+    .techieMatter_recruitment {
+        color: #62C5FA;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .find_techies_now_heading h2 {
+        font-size: 18px;
+        text-align: center;
+        margin: 16px 0;
+    }
+
+    .find_techies_now_details p {
+        font-size: 15px;
+        margin: 16px 0;
+    }
+
+    .start_hairning {
+        justify-content: center;
+    }
+
+    .find_techies_now_heading,
+    .find_techies_now_details {
+        min-width: 90%;
+    }
+
+    .find_techies_now_img, .evaluate_techies_now_img {
+        position: static;
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .techieMatter_recruitment {
+        color: #fff;
+        width: 70%;
+        /* height: 47px; */
+        background: #F19B48 0% 0% no-repeat padding-box;
+        border-radius: 24px;
+        font-size: 18px;
+        padding: 12px;
+        margin: 16px 0;
+        text-align: center;
+    }
+    .main-header{
+        align-items: center;
+    }
+    .heading-gif img{
+        max-width: 700px;
+        height: 100vh;
+}
+.find_techies_now_img img{
+    min-height: 600px;
+}
+}

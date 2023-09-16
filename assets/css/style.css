@@ -1,0 +1,337 @@
+/* main styles*/
+.count_number {
+    color: #62C5FA;
+    opacity: 1 !important;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 8px;
+}
+.countries_list {
+    width: 600px;
+}
+.countries_list_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 12px;
+}
+.countries_list_item .info{
+    width: 170px;
+}
+.see_how {
+    margin: 24px;
+    max-width: 190px;
+    max-height: 48px;
+}
+.see_how button {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.see_how img {
+    width: 100%;
+    height: 100%;
+}
+#trusted_company {
+    width: 90%;
+    margin: auto;
+}
+
+#trusted_company h1 {
+    color: #061455;
+    text-align: center;
+    margin: 32px auto;
+    font-weight: bold;
+    max-width: 822px;
+}
+
+#trusted_company .first_heedline {
+    font-size: 30px;
+    padding: 16px;
+}
+
+#trusted_company .second_heedline {
+    font-size: 60px;
+}
+
+.trusted_company_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.trusted_company_container img {
+    width: 20%;
+    margin: 32px 0;
+    filter: grayscale(1);
+}
+
+.trusted_company_container img:hover {
+    filter: grayscale(0);
+}
+
+.forget_the_headech {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+}
+
+.foget_img{
+    max-width: 453px;
+}
+.foget_img img {
+    width: 100%;
+}
+.forget_info {
+    width: 400px;
+    margin: auto;
+}
+
+.forget_the_headech .forget_info p {
+    color: #061455;
+    opacity: .6;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 16px 0;
+}
+
+
+/*build_team */
+#build_team {
+    background-color: #F5F5F5;
+    margin:  16px auto;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+
+
+#build_team .sub_heading {
+    color: #061455;
+    font-size: 20px;
+    text-align: center;
+    margin: 32px auto;
+    opacity: .6;
+    padding: 0 32px;
+    font-weight: 500;
+}
+
+.techies_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.techies_card {
+    /* display: flex; */
+    padding: 16px;
+    margin: 16px;
+    border-radius: 20px;
+    min-height: 324px;
+    min-width: 500px;
+}
+
+.techies_card_heading {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.techies_card h4 {
+    color: #62C5FA;
+    font-size: 20px;
+}
+
+.techies_card h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.techies_card_info,
+.card_img {
+    margin: 16px;
+}
+
+.techies_card_info {
+    max-width: 300px;
+
+}
+
+.card_img {
+    max-width: 75px;
+    max-height: 75px;
+}
+.card_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card_p {
+    font-size: 15px;
+    opacity: .6;
+    max-width: 500px;
+    padding: 8px;
+    font-weight: 600;
+}
+
+.beta_card_info_p {
+    font-size: 12px;
+}
+
+.beta_card_span {
+    color: #62C5FA;
+}
+
+
+
+/* hire_from_anywhere */
+#hire_from_anywhere {
+    /* background-image: url('../images/Mask\ Group\ 79.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    height: auto;
+}
+
+.hire_from_anywhere_cont {
+    background: #061455;
+}
+
+.worled_image img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#hire_from_anywhere h2 {
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    padding: 16px;
+}
+
+#hire_from_anywhere .hire_from_anywhere_btn {
+    margin: 16px;
+}
+
+.tech_tabs {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.tech_tab_content {
+    justify-content: center;
+}
+
+
+/* media query*/
+@media (max-width: 600px) {
+
+
+
+    .see_how {
+        min-width: 130px;
+        height: 38px;
+    }
+
+    .see_how img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    #trusted_company .first_heedline {
+        font-size: 20px;
+    }
+
+    .trusted_company_container img {
+        width: 150px;
+        height: 78px;
+    }
+
+    #trusted_company .second_heedline {
+        font-size: 30px;
+    }
+
+    .foget_img {
+        width: 344px;
+        height: 322.76px;
+        margin: auto;
+    }
+
+    .foget_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .forget_the_headech .forget_info p {
+        color: #061455;
+        opacity: .6;
+        font-size: 15px;
+    }
+
+    #hire_from_anywhere h2 {
+        font-size: 18px;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 8px 0 0 0;
+        padding: 8px 0 0;
+    }
+
+    #hire_from_anywhere .hire_from_anywhere_btn {
+        margin: 16px 0 0 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #build_team .sub_heading {
+        font-size: 12px;
+    }
+
+    .techies_card {
+        min-width: 334px;
+    }
+
+    .techies_card h4 {
+        color: #62C5FA;
+        font-size: 14px;
+    }
+
+    .techies_card h1 {
+        font-size: 18px;
+    }
+
+    .card_p {
+        font-size: 12px;
+        opacity: .6;
+        display: flex;
+        flex-direction: column;
+        margin: 8px 16px auto;
+    }
+
+    .techies_card_heading {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .techies_card_info,
+    .card_img {
+        margin: 24px;
+        width: 75px;
+    }
+
+    .card_img img {
+        width: 100%;
+    }
+    .tech_tabs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+
+}

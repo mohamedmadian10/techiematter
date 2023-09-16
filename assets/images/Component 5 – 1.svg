@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225.5" height="51" viewBox="0 0 225.5 51">
+  <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(1.5 1.5)">
+    <text id="See_how_it_works" data-name="See how it works" transform="translate(143 31)" fill="#fff" font-size="20" font-family="Ubuntu-Bold, Ubuntu" font-weight="700" opacity="0.6" text-decoration="underline"><tspan x="-80" y="0">See how it works</tspan></text>
+    <g id="Group_728" data-name="Group 728" transform="translate(-453 -682)" opacity="0.6">
+      <circle id="Ellipse_40" data-name="Ellipse 40" cx="24" cy="24" r="24" transform="translate(453 682)" fill="none" stroke="#fff" stroke-width="3"/>
+      <path id="Polygon_2" data-name="Polygon 2" d="M8.9,4.523a3,3,0,0,1,5.2,0L20.415,15.5a3,3,0,0,1-2.6,4.5H5.186a3,3,0,0,1-2.6-4.5Z" transform="translate(489.5 694) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,353 @@
+.heading_figure h3 {
+    color: #62C5FA;
+}
+
+.heading_figure p {
+    font-size: 19px;
+}
+
+.main-header h1 {
+    font-weight: bold;
+    font-size: 45px;
+    width: 700px;
+    position: relative;
+    z-index: 10;
+}
+.main-header p {
+    opacity: .6;
+    margin: 24px 0;
+    max-width: 550px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.tech_verifier_h1 {
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    max-width: 748px;
+    margin-top: 24px;
+}
+
+.for_verifier_heading_text h1 {
+    font-weight: bold;
+    margin: 32px;
+    padding: 32px;
+    max-width: 850px;
+    color: #fff;
+}
+
+#who_is_tech_verifier .dashed_text {
+    margin: 32px auto;
+    font-size: 23px;
+    opacity: .6;
+    max-width: 850px;
+    border: 2px dashed #62C5FA;
+    border-radius: 20px;
+    padding: 16px;
+    font-weight: 500;
+}
+
+#who_is_tech_verifier h3,
+#as_tech_verifier h3 {
+    font-size: 25px;
+    text-align: center;
+    margin: 32px auto;
+    font-weight: 600;
+    max-width: 840px;
+}
+
+.tech_v_card {
+    margin: 12px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#who_is_tech_verifier .tech_v_card {
+    max-width: 250px;
+    height: 190.69px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.tech_v_card p {
+    font-size: 20px;
+    padding: 16px 0;
+    font-weight: 500;
+}
+
+.card_avatar {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: -35px;
+}
+
+#who_is_tech_verifier .card_avatar {
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #061455;
+    width: 85px;
+    height: 84px;
+
+}
+
+#who_is_tech_verifier .card_avatar img {
+    width: 40px;
+}
+
+#as_tech_verifier {
+    background-color: #F5F5F5;
+    margin: 32px auto;
+    width: 90%;
+    border-radius: 20px;
+    padding: 16px 32px;
+}
+
+.as_tech_verifier_cards {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.as_tech_verifier_p {
+    text-align: center;
+    margin: 16px auto;
+    font-size: 25px;
+    opacity: .6;
+    padding: 0 24px 24px;
+    width: 80%;
+    font-weight: 500;
+}
+
+#as_tech_verifier .tech_v_card {
+    background-color: #061455;
+    width: 48%;
+    position: relative;
+    padding: 32px 8px 0 8px;
+}
+
+#as_tech_verifier .tech_v_card h4 {
+    font-size: 26px;
+    padding: 16px;
+}
+
+#as_tech_verifier .tech_v_card p {
+    font-size: 16px;
+    opacity: .6;
+}
+
+#as_tech_verifier .tech_v_card .card_avatar {
+    left: 50%;
+    right: 50%;
+}
+
+/* media query*/
+@media (max-width: 600px) {
+    .for_verifier_heading_text {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .heading_figure {
+        margin: auto;
+    }
+
+    .main-header h1 {
+        font-size: 20px;        
+        width: 300px;
+        margin: auto;
+    }
+
+    .heading_figure p {
+        font-size: 12px;
+    }
+
+    .heading_figure h3 {
+        color: #62C5FA;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .tech_verifier_h1 {
+        font-size: 30px;
+    }
+
+    #who_is_tech_verifier .dashed_text {
+        font-size: 15px;
+    }
+
+    #who_is_tech_verifier h3,
+    #as_tech_verifier h3 {
+        font-size: 20px;
+    }
+
+    #who_is_tech_verifier .tech_v_card {
+        max-width: 180px;
+    }
+
+    .tech_v_card p {
+        font-size: 15px;
+    }
+
+    .as_tech_verifier_p {
+        text-align: center;
+        margin: 16px auto;
+        font-size: 15px;
+        padding: 0px 8px 8px;
+        width: 100%;
+    }
+
+    #as_tech_verifier .tech_v_card {
+        width: 380px;
+    }
+
+    #as_tech_verifier .tech_v_card h4 {
+        font-size: 20px;
+    }
+
+    #as_tech_verifier .tech_v_card p {
+        font-size: 15px;
+    }
+
+    .quest {
+        font-size: 15px !important;
+    }
+
+    .for_verifier_heading_text h1 {
+        font-weight: bold;
+        margin: 16px auto;
+        max-width: 850px;
+        color: #fff;
+        font-size: 18px;
+    }
+
+}
+
+/* media query*/
+@media (min-width: 1024px) {
+    .for_verifier_heading {
+        margin-bottom: 48px;
+        padding: 100px 32px;
+        min-height: 900px;
+        position: relative;
+    }
+
+    .for_verifier_heading_image {
+        max-width: 650px;
+        max-height: 691.28px;
+        position: absolute;
+        right: 10%;
+        top: 80px;
+        padding: 32px;
+    }
+
+    .for_verifier_heading_text {
+        position: absolute;
+        top: 80px;
+        left: 10%;
+        padding: 32px 0;
+        z-index: 5;
+    }
+
+    .for_verifier_heading_bottom {
+        position: absolute;
+        bottom: 0;
+        padding: 32px 0;
+        margin: 32px 0;
+    }
+
+    /* .for_verifier_heading_bottom h3,
+    .for_verifier_heading_bottom p {
+        padding: 0 32px;
+    } */
+
+    .for_verifier_heading_bottom h3 {
+        color: #62C5FA;
+        font-size: 31px;
+        font-weight: bold;
+    }
+
+    .for_verifier_heading_bottom p {
+        font-size: 19px;
+        opacity: .6;
+    }
+
+    .for_verifier_heading_text p {
+        font-size: 20px;
+        text-align: start;
+        padding: 0 32px;
+        margin: 32px;
+        width: 50%;
+    }
+
+    .for_verifier_heading_btn {
+        display: flex;
+        align-items: center;
+        margin: 32px 0;
+    }
+
+    .for_verifier_heading_image img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .for_verifier_heading {
+        padding: 50px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .for_verifier_heading_image {
+        max-width: 650px;
+        max-height: 691.28px;
+        right: 20px;
+        top: 80px;
+    }
+
+    .for_verifier_heading_text {
+        padding: 16px;
+        /* text-align: center; */
+    }
+
+    .for_verifier_heading_bottom {
+        padding: 16px;
+        text-align: center
+    }
+
+
+
+    .for_verifier_heading_bottom h3 {
+        color: #62C5FA;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .for_verifier_heading_bottom p {
+        font-size: 12px;
+        opacity: .6;
+    }
+
+    .for_verifier_heading_text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+
+    .for_verifier_heading_btn {
+        margin: 32px auto;
+        padding: 0 32px;
+        text-align: center;
+    }
+
+    .for_verifier_heading_image img {
+        width: 100%;
+    }
+}
