@@ -155,6 +155,9 @@ header ul {
 .main-nav ul .nav-list-item {
     margin-left: 32px;
     font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .nav-list-item {
@@ -192,6 +195,9 @@ a:active {
     border-radius: 8px;
     font-weight: bold;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main_info_h2 {
@@ -567,7 +573,13 @@ form input {
     }
 
     .main-header h1 {
-        font-size: 25px;
+        font-size: 20px;
+        max-width: 350px;
+        line-height: inherit;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* display: flex; */
+        margin: auto;
     }
 
     .main-header p {
@@ -668,7 +680,7 @@ form input {
     }
 
     .main_info_h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .testimonial_author .testimonial_info {

@@ -266,7 +266,7 @@
     }
 
     #trusted_company .second_heedline {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .foget_img {
@@ -290,8 +290,8 @@
         font-size: 18px;
         color: #FFFFFF;
         text-align: center;
-        margin: 8px 0 0 0;
-        padding: 8px 0 0;
+        margin: 0;
+        padding: 16px 0 0;
     }
 
     #hire_from_anywhere .hire_from_anywhere_btn {
@@ -304,6 +304,8 @@
 
     .countries_list {
         max-width: 100%;
+        margin: 0 16px;
+
     }
         .count_number {
             font-size: 20px;
@@ -349,7 +351,7 @@
     .techies_card_heading {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .techies_card_info,
