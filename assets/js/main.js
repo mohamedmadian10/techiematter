@@ -43,5 +43,10 @@ function closeIframe() {
 }
 $(window).on('load', function () {
     $('#loader').hide();
-    console.log('dsdsdsd');
 })
+
+$(document).ready(function () {
+    if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+        $('#video-img').replaceWith('<img src="./assets/images/Card Animation.gif" >');
+    }
+});

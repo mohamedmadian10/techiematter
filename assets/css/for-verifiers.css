@@ -16,6 +16,7 @@
     max-width: 100%;
     height: auto;
 }
+
 .main-header h1 {
     font-weight: bold;
     font-size: 45px;
@@ -75,17 +76,17 @@
 }
 
 #who_is_tech_verifier .tech_v_card {
-    max-width: 250px;
-    height: 190.69px;
+    max-width: 247px;
+    height: 165px;
     background-color: #F5F5F5;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 
 .tech_v_card p {
     font-size: 20px;
-    padding: 16px 0;
+    padding-top: 48px;
     font-weight: 500;
 }
 
@@ -100,15 +101,16 @@
 
 #who_is_tech_verifier .card_avatar {
     padding: 12px;
-    border-radius: 20px;
+    border-radius: 16px;
     background-color: #061455;
-    width: 85px;
-    height: 84px;
+    width: 72px;
+    height: 72px;
 
 }
 
 #who_is_tech_verifier .card_avatar img {
-    width: 40px;
+    width: 42px;
+    height: 42px;
 }
 
 #as_tech_verifier {
@@ -139,17 +141,20 @@
     background-color: #061455;
     width: 48%;
     position: relative;
-    padding: 32px 8px 0 8px;
+    padding: 16px;
+    max-height: 390px;
 }
 
 #as_tech_verifier .tech_v_card h4 {
-    font-size: 26px;
-    padding: 16px;
+    font-size: 24px;
+    padding-top: 48px;
+    text-align: center;
 }
 
 #as_tech_verifier .tech_v_card p {
     font-size: 16px;
     opacity: .6;
+    padding-top: 8px;
 }
 
 #as_tech_verifier .tech_v_card .card_avatar {
@@ -219,6 +224,7 @@
 
     #as_tech_verifier .tech_v_card {
         width: 380px;
+        min-height: 300px;
     }
 
     #as_tech_verifier .tech_v_card h4 {

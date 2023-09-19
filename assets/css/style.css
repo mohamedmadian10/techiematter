@@ -9,6 +9,7 @@
 
 .countries_list {
     width: 600px;
+    padding: 16px 0;
 }
 
 .countries_list_item {
@@ -16,15 +17,22 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 12px;
+    margin-left: 0;
 }
 
 .countries_list_item .info {
     width: 170px;
 }
 
+.see_how,
+.book_demo_container {
+
+    max-width: 200px;
+    padding-left: 0;
+}
+
 .see_how {
     margin: 24px;
-    max-width: 190px;
     max-height: 48px;
 }
 
@@ -112,6 +120,7 @@
     margin: 16px auto;
     padding: 32px;
     border-radius: 24px;
+    margin-top: 60px;
 }
 
 
@@ -137,13 +146,15 @@
     padding: 16px;
     margin: 16px;
     border-radius: 20px;
-    min-height: 324px;
-    min-width: 500px;
+    /* min-height: 324px; */
+    min-width: 430px;
 }
 
 .techies_card_heading {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    padding: 0 8px;
 }
 
 .techies_card h4 {
@@ -169,6 +180,7 @@
 .card_img {
     max-width: 75px;
     max-height: 75px;
+    margin-left: 0;
 }
 
 .card_img img {
@@ -234,7 +246,8 @@
 }
 
 .tech_tab_content {
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 8px;
 }
 
 
@@ -307,9 +320,10 @@
         margin: 0 16px;
 
     }
-        .count_number {
-            font-size: 20px;
-        }
+
+    .count_number {
+        font-size: 20px;
+    }
 
     .countries_list_item {
         display: flex;
@@ -351,7 +365,8 @@
     .techies_card_heading {
         display: flex;
         flex-wrap: wrap;
-        /* flex-direction: column; */
+        flex-direction: column;
+        align-items: start;
     }
 
     .techies_card_info,
@@ -373,4 +388,20 @@
     }
 
 
+}
+
+@media (max-width: 1024px) {
+    .countries_list_v1 {
+        display: none;
+    }
+
+    .tech_tabs {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1024px) {
+    .countries_list_v2 {
+        display: none;
+    }
 }

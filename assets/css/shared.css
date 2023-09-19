@@ -288,10 +288,10 @@ p {
 
 /* testimonial*/
 .testimonial {
-    background-image: url(../images/Mask\ Group\ 4.svg);
+    background-image: url(../images/bg\ test.svg);
     background-color: #62C5FA;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
     display: flex;
     flex-direction: column;
     padding: 24px;
@@ -397,9 +397,10 @@ p {
 
 .tech_tab_content p {
     color: #061455;
-    font-size: 20px;
+    font-size: 17px;
     margin: 32px;
-    width: 272px
+    min-width: 272px;
+    opacity: .9;
 }
 
 
@@ -498,11 +499,11 @@ form input {
 
 .footer_heading {
     display: flex;
-    padding: 16px;
+    padding: 16px 0;
     justify-content: space-between;
     flex-wrap: wrap;
     border-bottom: 1px solid #F19B48;
-    width: 95%;
+    width: 97%;
     margin: auto;
 }
 
@@ -748,6 +749,8 @@ form input {
 @media (min-width: 1024px) {
     header {
         min-height: 100vh;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -758,6 +761,13 @@ form input {
 
     .testimonial_mark {
         display: none;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .main-header h1 {
+        font-size: 2rem;
     }
 
 }
