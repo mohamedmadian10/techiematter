@@ -23,6 +23,14 @@
     <div id="loader">
         <span class="loader"></span>
     </div>
+    <div id="iframe_container" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeIframe()">&times;</a>
+        <div class="overlay-content">
+            <iframe allowfullscreen
+                style="position:absolute; top:0px; left:0px; width:100%; height:100%; border: none; overflow: hidden;"
+                frameborder="0"></iframe>
+        </div>
+    </div>
     <!-- the start of Header -->
     <header>
         <nav class="main-nav navbar navbar-light navbar-expand-lg">
@@ -32,8 +40,8 @@
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation" style="background-color: #fff;">
-                    <span class="navbar-toggler-icon"></span>
+                    aria-label="Toggle navigation" style="background-color: transparent; outline:none; border:none">
+                    <span class=""><img src="./assets/images/Group 1636.svg" alt=""></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -65,13 +73,13 @@
             </div>
         </nav>
         <div class="container">
-
+            <!-- <div class="header_wrapper"> -->
             <div class="main-header row">
                 <div class="heading-gif col-12 col-md-6 mr-auto ">
                     <img loading="lazy" src="./assets/images/Mask Group 103.png" alt="">
                 </div>
                 <div class="heading-info col-12 col-md-6">
-                    <h1>
+                    <h1 class="pt-3">
                         <span>Find the best tech talents your business deserves.</span>
                         <span class="hassle-free">Hassle free.</span>
                     </h1>
@@ -79,6 +87,8 @@
                 </div>
 
             </div>
+            <!-- </div> -->
+
         </div>
 
     </header>
@@ -107,13 +117,19 @@
                     <span class="testimonial_desc">Greenish</span><br>
                     <img class="testimonial_flag" loading="lazy" src="./assets/images/Image 38.png" alt="">
                 </div>
+                <div class="watch_testimonial">
+                    <a style="cursor: pointer;" id="open_video_btn"
+                        onclick="openIframe('https://www.youtube.com/embed/VqdPwb8NmHs')">
+                        <img loading="lazy" src="./assets/images/Group 1033.png" alt="">
+                    </a>
+                </div>
             </div>
 
         </section>
         <!-- the End of testimonial section -->
 
         <!-- the Start of find_techies_now section -->
-        <section id="find_techies_now" class="container">
+        <section id="find_techies_now_recruitment" class="container">
             <div class="find_techies_now_wrapper">
 
                 <div class="find_techies_now_heading">
@@ -160,12 +176,18 @@
                     <span class="testimonial_desc">Bosta</span><br>
                     <img class="testimonial_flag" loading="lazy" src="./assets/images/Image 106.png" alt="">
                 </div>
+                <div class="watch_testimonial">
+                    <a style="cursor: pointer;" id="open_video_btn"
+                        onclick="openIframe('https://www.youtube.com/embed/910niYAKKmg')">
+                        <img loading="lazy" src="./assets/images/Group 1033.png" alt="">
+                    </a>
+                </div>
             </div>
 
         </section>
         <!-- the End of testimonial section -->
         <!-- the Start of find_techies_now section -->
-        <section id="find_techies_now" class="container">
+        <section id="find_techies_now_assessment" class="container">
             <div class="evaluate_techies_now_wrapper">
 
                 <div class="find_techies_now_heading">
@@ -210,6 +232,12 @@
                     <span class="testimonial_desc">Vulcan</span><br>
                     <img class="testimonial_flag" loading="lazy" src="./assets/images/Image 106.png" alt="">
                 </div>
+                <div class="watch_testimonial">
+                    <a style="cursor: pointer;" id="open_video_btn"
+                        onclick="openIframe('https://www.youtube.com/embed/910niYAKKmg')">
+                        <img loading="lazy" src="./assets/images/Group 1033.png" alt="">
+                    </a>
+                </div>
             </div>
 
         </section>
@@ -229,13 +257,15 @@
                         <div class="find_techies_now_details w-100">
                             <p>Use TechieMatter to get an in-depth evaluation by a Tech Expert.</p>
                             <p> TechieMatter will assign a tech expert from its global
-                                network to evaluate your techies’ or tech team’s skills with a 1:1 and in-depth technical
+                                network to evaluate your techies’ or tech team’s skills with a 1:1 and in-depth
+                                technical
                                 interview. They’ll review
                                 their coding skills, interpersonal skills, and everything in between.</p>
                             <p>You’ll get a detailed report by the expert, and a
                                 video recording of the interview, so you can decide on your next steps.</p>
                             <div class="start_hairning">
-                                <a class="hire-btn" target="_blank" href="https://www.techiematter.com/companySignup">Evaluate
+                                <a class="hire-btn" target="_blank"
+                                    href="https://www.techiematter.com/companySignup">Evaluate
                                     techies</a>
                             </div>
                         </div>
@@ -244,7 +274,7 @@
                         <img loading="lazy" class="img-fluid" src="./assets/images/Group 1610@2x.png" alt="">
                     </div>
                 </div>
-              
+
             </div>
 
         </section>
@@ -266,8 +296,14 @@
                 <div class="testimonial_info">
                     <span class="testimonial_name">Nader Khodeir</span><br>
                     <span class="testimonial_desc">Talent Acquisition & Management Executive </span><br>
-                    <span class="testimonial_desc">Union Coop</span>
+                    <span class="testimonial_desc">Union Coop</span><br>
                     <img class="testimonial_flag" loading="lazy" src="./assets/images/Mask Group 105.png" alt="">
+                </div>
+                <div class="watch_testimonial">
+                    <a style="cursor: pointer;" id="open_video_btn"
+                        onclick="openIframe('https://www.youtube.com/embed/910niYAKKmg')">
+                        <img loading="lazy" src="./assets/images/Group 1033.png" alt="">
+                    </a>
                 </div>
             </div>
 
@@ -286,27 +322,27 @@
                     <div class="footer_icons ">
                         <div class="footer_icon">
                             <a target="_blank" href="https://twitter.com/techhiringarm">
-                                <img loading="lazy" src="./assets/images/_x30_4.Twitter.svg" alt="twitter">
+                                <img loading="lazy" src="./assets/images/Group 1632.png" alt="twitter">
                             </a>
                         </div>
                         <div class="footer_icon">
                             <a target="_blank" href="https://www.youtube.com/@TechHiringArm">
-                                <img loading="lazy" src="./assets/images/youtube.svg" alt="youtube">
+                                <img loading="lazy" src="./assets/images/Group 1631.png" alt="youtube">
                             </a>
                         </div>
                         <div class="footer_icon">
                             <a target="_blank" href="https://www.instagram.com/techhiringarm/">
-                                <img loading="lazy" src="./assets/images/Group 1242.svg" alt="instagram">
+                                <img loading="lazy" src="./assets/images/Group 1630.png" alt="instagram">
                             </a>
                         </div>
                         <div class="footer_icon">
                             <a target="_blank" href="https://www.facebook.com/TechHiringArm/">
-                                <img loading="lazy" src="./assets/images/Group 1243.svg" alt="facebook">
+                                <img loading="lazy" src="./assets/images/Group 1629.png" alt="facebook">
                             </a>
                         </div>
                         <div class="footer_icon">
                             <a target="_blank" href="https://eg.linkedin.com/company/techhiringarm">
-                                <img loading="lazy" src="./assets/images/Group 1241.svg" alt="linkedin">
+                                <img loading="lazy" src="./assets/images/Group 1628.png" alt="linkedin">
                             </a>
                         </div>
                     </div>
@@ -314,10 +350,12 @@
                 <div class="footer_content row">
                     <div class="col-6 col-lg-3">
                         <p class="footer_content_heading">Products</p>
-                        <p class="footer_content_sub_heading">Recruitment</p>
-                        <p class="footer_content_sub_heading">Assessment</p>
-                        <p class="footer_content_sub_heading">Expert Interview</p>
-                        <p class="footer_content_sub_heading">Onboarding</p>
+                        <p class="footer_content_sub_heading"><a href="#find_techies_now_recruitment">Recruitment</a>
+                        </p>
+                        <p class="footer_content_sub_heading"><a href="#find_techies_now_assessment">Assessment</a></p>
+                        <p class="footer_content_sub_heading"><a href="#evaluate_techies_now">Expert
+                                Interview</a></p>
+                        <p class="footer_content_sub_heading"><a href="./index.html#build_team">Onboarding</a></p>
                     </div>
                     <div class="col-6 col-lg-3">
                         <p class="footer_content_heading">Pages</p>
@@ -330,26 +368,38 @@
                         <p class="footer_content_heading">Contact</p>
                         <p class="footer_content_sub_heading">
                             <a target="_blank" href="https://api.whatsapp.com/send?phone=201023253409">
-                                <img loading="lazy" src="./assets/images/Image 62.png" alt="">
+                                <img style="
+                                            max-width: 24px;
+                                            max-height: 24px;
+                                        " loading="lazy" src="./assets/images/Image 124.png" alt="whatsapp">
                                 +201023253409
                             </a>
                         </p>
                         <p class="footer_content_sub_heading">
                             <a target="_blank" href="mailto:info@techiematter.com">
-                                <img loading="lazy" src="./assets/images/Image 63.png" alt="">
+                                <img style="
+                                            max-width: 24px;
+                                            max-height: 24px;
+                                            vertical-align: top;
+                                        " loading="lazy" src="./assets/images/Image 125.png" alt="email">
                                 info@techiematter.com
                             </a>
                         </p>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <p class="footer_content_heading"><a style="color: inherit;" target="_blank" href="#">Terms &
+                        <p class="footer_content_heading"><a style="color: inherit;"
+                                href="./terms-conditions.html">Terms &
                                 Conditions</a></p>
-                        <p class="footer_content_heading"><a style="color: inherit;" target="_blank" href="#">Privacy
+                        <p class="footer_content_heading"><a style="color: inherit;"
+                                href="./privacy-policy.html">Privacy
                                 Policy</a></p>
                         <p class="backed_by">Backed by</p>
                         <p class="footer_500">
                             <img loading="lazy" src="./assets/images/Image 72.png" alt="">
-                            <img loading="lazy" src="./assets/images/Image 73.png" alt="">
+                            <img loading="lazy" src="./assets/images/Image 127.png" alt="" style="
+                                          max-width: 40px;
+                                          max-height: 30px;
+                                    ">
                         </p>
                     </div>
 

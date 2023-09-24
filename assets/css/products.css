@@ -1,4 +1,12 @@
-#find_techies_now {
+.header_wrapper {
+    background-image: url('../images/Group\ 1634.svg');
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+#find_techies_now_recruitment,
+#find_techies_now_assessment {
     width: 95%;
     margin: auto;
 }
@@ -68,16 +76,32 @@
 }
 
 @media (max-width: 768px) {
+    header {
+        margin: auto;
+        padding: 16px 16px 0;
+        min-height: auto;
+    }
+
     .main-header {
         margin-bottom: 0;
         margin-top: 0;
-        padding: 75px 0;
+        padding: 75px 0 0 0;
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .heading-gif {
+        width: 380px;
+        height: 380px;
+        margin: 16px 0 0 auto;
     }
 }
 
 @media (max-width: 1024px) {
+    .header_wrapper {
+        background-image: none;
+        height: auto;
+    }
 
     .find_techies_now_wrapper,
     .evaluate_techies_now_wrapper {
@@ -86,9 +110,19 @@
     }
 
     .techieMatter_recruitment {
-        color: #62C5FA;
+        /* color: #62C5FA; */
+
+        /* text-align: center; */
+        /* font-size: 15px; */
+        color: #fff;
+        max-width: 300px;
+        /* height: 47px; */
+        background: #F19B48 0% 0% no-repeat padding-box;
+        border-radius: 24px;
+        font-size: 14px;
+        padding: 12px;
+        margin: auto;
         text-align: center;
-        font-size: 15px;
     }
 
     .find_techies_now_heading h2 {
@@ -125,7 +159,7 @@
         /* height: 47px; */
         background: #F19B48 0% 0% no-repeat padding-box;
         border-radius: 24px;
-        font-size: 18px;
+        font-size: 16px;
         padding: 12px;
         margin: 16px 0;
         text-align: center;
@@ -133,11 +167,21 @@
 
     .main-header {
         align-items: center;
+        padding-top: 0;
     }
 
     .heading-gif img {
         max-width: 700px;
-        height: 100vh;
+        /* height: 100vh; */
+        min-width: 700px;
+        min-height: 85vh;
+        padding-top: 120px;
+
+        max-width: 700px;
+        /* height: 100vh; */
+        min-width: 700px;
+        min-height: 100vh;
+        padding-top: 40%;
     }
 
     .find_techies_now_img img {

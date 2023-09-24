@@ -27,8 +27,12 @@
 .see_how,
 .book_demo_container {
 
-    max-width: 200px;
+    max-width: 180px;
     padding-left: 0;
+}
+
+.book_demo_container a {
+    padding: 12px 24px;
 }
 
 .see_how {
@@ -246,8 +250,9 @@
 }
 
 .tech_tab_content {
-    justify-content: space-between;
-    margin: 0 8px;
+    width: 100%;
+    margin: 32px auto;
+    padding-inline-start: 48px;
 }
 
 
@@ -266,6 +271,10 @@
         width: 100%;
         height: 100%;
     }
+        .see_how,
+        .book_demo_container {
+            margin: auto;
+        }
 
 
 
@@ -337,6 +346,14 @@
 }
 
 @media (max-width: 768px) {
+    .trusted_company_container {
+        justify-content: space-evenly;
+    }
+
+    .trusted_company_container img {
+        width: 130px;
+    }
+
     #build_team .sub_heading {
         font-size: 12px;
     }

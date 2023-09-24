@@ -1,0 +1,22 @@
+main{
+    margin: 24px;
+    padding-top: 100px;
+}
+header{
+    min-height: auto;
+}
+main h3, main p, main h5 {
+    color: #061455;
+    padding: 8px 0;
+}
+main h3 {
+    font-weight: bold;
+}
+main a {
+color: #62C5FA;
+text-decoration: underline !important;
+}
+main a:hover {
+    color: #62C5FA;
+    text-decoration: underline !important;
+}

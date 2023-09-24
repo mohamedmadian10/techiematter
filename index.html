@@ -28,9 +28,9 @@
     <div id="iframe_container" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeIframe()">&times;</a>
         <div class="overlay-content">
-            <iframe allowfullscreen
+            <iframe id="intro-iframe" allowfullscreen
                 style="position:absolute; top:0px; left:0px; width:100%; height:100%; border: none; overflow: hidden;"
-                src="https://www.youtube.com/embed/910niYAKKmg" frameborder="0"></iframe>
+                 frameborder="0"></iframe>
         </div>
     </div>
     <!-- <the end of iframe video -->
@@ -89,10 +89,10 @@
                     <div class="heading-info-btns">
                         <div class="col-6 book_demo_container">
                             <a target="_blank" class="hire-btn"
-                                href="https://meetings-eu1.hubspot.com/muhammad-abu-elgheit">Book a Demo</a>                            
+                                href="https://meetings-eu1.hubspot.com/muhammad-abu-elgheit">Book a Demo</a>
                         </div>
                         <div class="see_how col-6">
-                            <button id="open_video_btn" onclick="openIframe()"><img loading="lazy"
+                            <button id="open_video_btn" onclick="openIframe('https://www.youtube.com/embed/910niYAKKmg')"><img loading="lazy"
                                     src="./assets/images/Component 5 – 1.svg" alt=""></button>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                             <span class="count_number ml-0">13+</span>
                             <span class="info">Countries we served companies in </span>
                         </div>
-                        <div class="border_tall" style="opacity: .6;">
+                        <div class="border_tall mr-3" style="opacity: .6;">
                             <img loading="lazy" src="./assets/images/Line 52.svg" alt="">
                         </div>
                         <div class="countries_list_item">
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="heading-gif col-12 col-md-5 ">
-                    <video id="video-img" playsInline autoPlay muted loop  src="./assets/images/Home Page Animation.mp4">
+                    <video id="video-img" playsInline autoPlay muted loop src="./assets/images/Home Page Animation.mp4">
                     </video>
                 </div>
                 <div class="heading-info-btns countries_list countries_list_v2 mb-4">
@@ -203,8 +203,9 @@
                     <img loading="lazy" src="./assets/images/dalia (1).png" alt="">
                 </div>
                 <div class="testimonial_info">
-                    <span class="testimonial_name">Dalia AlSaid,</span><br>
-                    <span class="testimonial_desc">Chief Operations Officer (COO) at Wellthi</span><br>
+                    <span class="testimonial_name">Dalia AlSaid</span><br>
+                    <span class="testimonial_desc">Chief Operations Officer (COO) </span><br>
+                    <span class="testimonial_desc">Wellthi</span><br>
                     <img class="testimonial_flag" loading="lazy" src="./assets/images/Mask Group 27.png" alt="">
                 </div>
             </div>
@@ -307,104 +308,104 @@
             </div>
             <div class="tech_tab_content" id="Software">
                 <div class="row">
-                    <p class="col">Software Engineer</p>
-                    <p class="col">BackEnd Developer</p>
-                    <p class="col">FrontEnd Developer</p>
-                    <p class="col">FullStack Developer</p>
+                    <p class="col col-md-3">Software Engineer</p>
+                    <p class="col col-md-3">BackEnd Developer</p>
+                    <p class="col col-md-3">FrontEnd Developer</p>
+                    <p class="col col-md-3">FullStack Developer</p>
                 </div>
                 <div class="row">
-                    <p class="col">Mobile Developer</p>
-                    <p class="col">Desktop App Developer</p>
-                    <p class="col">Embedded Developer</p>
-                    <p class="col">Game Developer</p>
+                    <p class="col col-md-3">Mobile Developer</p>
+                    <p class="col col-md-3">Desktop App Developer</p>
+                    <p class="col col-md-3">Embedded Developer</p>
+                    <p class="col col-md-3">Game Developer</p>
                 </div>
             </div>
             <div class="tech_tab_content" id="Analysis">
                 <div class="row">
-                    <p class="col">Business Analyst</p>
-                    <p class="col">Systems Analyst</p>
-                    <p class="col">Requirements Engineer</p>
-                    <p class="col">Enterprise Architect</p>
+                    <p class="col col-md-3">Business Analyst</p>
+                    <p class="col col-md-3">Systems Analyst</p>
+                    <p class="col col-md-3">Requirements Engineer</p>
+                    <p class="col col-md-3">Enterprise Architect</p>
                 </div>
                 <div class="row">
-                    <p class="col">Product Owner</p>
-                    <p class="col">UI/UX Designer</p>
-                    <p class="col">Product Designer</p>
-                    <p class="col">Game Designer</p>
+                    <p class="col col-md-3">Product Owner</p>
+                    <p class="col col-md-3">UI/UX Designer</p>
+                    <p class="col col-md-3">Product Designer</p>
+                    <p class="col col-md-3">Game Designer</p>
                 </div>
             </div>
             <div class="tech_tab_content" id="Testing">
                 <div class="row">
-                    <p class="col">Software Tester</p>
-                    <p class="col">Manual Tester</p>
-                    <p class="col">Test Automation Engineer</p>
-                    <p class="col">Quality Manager</p>
+                    <p class="col col-md-3">Software Tester</p>
+                    <p class="col col-md-3">Manual Tester</p>
+                    <p class="col col-md-3">Test Automation Engineer</p>
+                    <p class="col col-md-3">Quality Manager</p>
                 </div>
                 <div class="row">
-                    <p class="col">Performance Test Engineer</p>
-                    <p class="col">Process Improvement Engineer</p>
-                    <p class="col">Process Improvement Manager</p>
+                    <p class="col col-md-3">Performance Test Engineer</p>
+                    <p class="col col-md-3">Process Improvement Engineer</p>
+                    <p class="col col-md-3">Process Improvement Manager</p>
                 </div>
             </div>
             <div class="tech_tab_content" id="Database">
                 <div class="row">
-                    <p class="col">Database Admin</p>
-                    <p class="col">Cloud Engineer</p>
-                    <p class="col">System Admin</p>
-                    <p class="col">IT Support Engineer</p>
+                    <p class="col col-md-3">Database Admin</p>
+                    <p class="col col-md-3">Cloud Engineer</p>
+                    <p class="col col-md-3">System Admin</p>
+                    <p class="col col-md-3">IT Support Engineer</p>
                 </div>
                 <div class="row">
-                    <p class="col">Configuration Manager</p>
-                    <p class="col">Data Warehouse Developer</p>
-                    <p class="col">System Reliability Engineer</p>
-                    <p class="col">DevOps Engineer</p>
+                    <p class="col col-md-3">Configuration Manager</p>
+                    <p class="col col-md-3">Data Warehouse Developer</p>
+                    <p class="col col-md-3">System Reliability Engineer</p>
+                    <p class="col col-md-3">DevOps Engineer</p>
                 </div>
             </div>
             <div class="tech_tab_content" id="Data">
                 <div class="row">
-                    <p class="col">Data Scientist</p>
-                    <p class="col">Data Analyst</p>
-                    <p class="col">BI Engineer</p>
-                    <p class="col">BI Consultant</p>
+                    <p class="col col-md-3">Data Scientist</p>
+                    <p class="col col-md-3">Data Analyst</p>
+                    <p class="col col-md-3">BI Engineer</p>
+                    <p class="col col-md-3">BI Consultant</p>
                 </div>
                 <div class="row">
-                    <p class="col">Machine Learning Engineer</p>
-                    <p class="col">NLP Engineer</p>
-                    <p class="col">Computer Vision Engineer</p>
-                    <p class="col">Deep Learning Engineer</p>
+                    <p class="col col-md-3">Machine Learning Engineer</p>
+                    <p class="col col-md-3">NLP Engineer</p>
+                    <p class="col col-md-3">Computer Vision Engineer</p>
+                    <p class="col col-md-3">Deep Learning Engineer</p>
                 </div>
             </div>
             <div class="tech_tab_content" id="Management">
                 <div class="row">
-                    <p class="col">Product Manager</p>
-                    <p class="col">Project Manager</p>
-                    <p class="col">Software Architect</p>
-                    <p class="col">IT Manager</p>
+                    <p class="col col-md-3">Product Manager</p>
+                    <p class="col col-md-3">Project Manager</p>
+                    <p class="col col-md-3">Software Architect</p>
+                    <p class="col col-md-3">IT Manager</p>
                 </div>
                 <div class="row">
-                    <p class="col">Tech Lead</p>
-                    <p class="col">CTO</p>
-                    <p class="col">CIO</p>
-                    <p class="col">Agile Coach</p>
+                    <p class="col-6 col-md-3">Tech Lead</p>
+                    <p class="col col-md-3">CTO</p>
+                    <p class="col col-md-3">CIO</p>
+                    <p class="col col-md-3">Agile Coach</p>
                 </div>
             </div>
             <div class="tech_tab_content" id="Cyber">
                 <div class="row">
-                    <p class="col">Security Analyst</p>
-                    <p class="col">Cyber Security Engineer</p>
-                    <p class="col">Cyber Security Manager</p>
-                    <p class="col">Security Tester</p>
+                    <p class="col col-md-3">Security Analyst</p>
+                    <p class="col col-md-3">Cyber Security Engineer</p>
+                    <p class="col col-md-3">Cyber Security Manager</p>
+                    <p class="col col-md-3">Security Tester</p>
                 </div>
             </div>
             <div class="tech_tab_content" id="Hardware">
                 <div class="row">
-                    <p class="col">IoT Engineer</p>
-                    <p class="col">Hardware Design Engineer</p>
-                    <p class="col">Digital System Design Engineer</p>
-                    <p class="col">FPGA Engineer</p>
+                    <p class="col col-md-3">IoT Engineer</p>
+                    <p class="col col-md-3">Hardware Design Engineer</p>
+                    <p class="col col-md-3">Digital System Design Engineer</p>
+                    <p class="col col-md-3">FPGA Engineer</p>
                 </div>
                 <div class="row">
-                    <p class="col">Embedded Systems Engineer</p>
+                    <p class="col col-md-3">Embedded Systems Engineer</p>
 
                 </div>
             </div>
@@ -424,8 +425,9 @@
                     <img loading="lazy" src="./assets/images/Mask Group 29.png" alt="">
                 </div>
                 <div class="testimonial_info">
-                    <span class="testimonial_name">Abdulrahman AlMulqi,</span><br>
-                    <span class="testimonial_desc">Co-founder & COO at Ayen</span><br>
+                    <span class="testimonial_name">Abdulrahman AlMulqi</span><br>
+                    <span class="testimonial_desc">Co-founder & COO</span><br>
+                    <span class="testimonial_desc">Ayen</span><br>
                     <img class="testimonial_flag" loading="lazy" src="./assets/images/Image 38.png" alt="">
                 </div>
             </div>
@@ -441,7 +443,7 @@
                         techies today!</a>
                 </div>
                 <div class="worled_image">
-                    <img loading="lazy" src="./assets/images/Group 1612.svg" alt="" srcset="">
+                    <img loading="lazy" src="./assets/images/Planet .png" alt="">
                 </div>
             </div>
 
@@ -453,38 +455,28 @@
             <div class="subscribe_container container">
                 <div class="subscriobe_text">
                     <h2 class="main_info_h2">Subscribe to<br> the newsletter</h2>
-                    <p>Get recruitment tips, and discover the latest technologies.</p>
+                    <p>Get tech recruitment insights, news, trends, retention tips, and more!</p>
                 </div>
                 <div class="subscribe_form">
-                    <!-- <form action="">
+                    <form id="Subscribe-form" method="POST">
                         <div class="inputs_container">
                             <div class="form_group col-12 col-md-6">
                                 <label class="secondry_color" style="font-weight: bold;" for="Name">Name</label> <br>
-                                <input type="text" class="form_control" name="" id="Name" aria-describedby="helpId"
-                                    placeholder="Name">
+                                <input type="text" class="form_control" name="firstname" id="Name"
+                                    aria-describedby="helpId" placeholder="Name">
                             </div>
                             <div class="form_group col-12 col-md-6">
                                 <label class="secondry_color" style="font-weight: bold;" for="">Email</label> <br>
-                                <input type="text" class="form_control" name="" id="" aria-describedby="helpId"
-                                    placeholder="Business Email">
+                                <input type="email" class="form_control" name="email" id="Email"
+                                    aria-describedby="helpId" placeholder="Business Email">
                             </div>
                         </div>
                         <div class="signup_btn_wrapper">
-                            <button class="signup_btn" type="submit">Sign Up</button>
+                            <input class="signup_btn" value="Sign Up" type="submit">
                         </div>
-                    </form> -->
-                    <!-- <script charset="utf-8" type="text/javascript"
-                        src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-                    <script>
-                        hbspt.forms.create({
-                            region: "eu1",
-                            portalId: "25665890",
-                            formId: "cd96eb13-42f2-460e-9de2-9ee8e3f57497"
-                        });
+                    </form>
+                    <div id="thankyou"></div>
 
-                    </script> -->
-                    <iframe src="https://share-eu1.hsforms.com/1Pl_LhDn0RIqDedjgDahTvAfa3xe" width="400"
-                        height="300"></iframe>
                 </div>
             </div>
 
@@ -502,27 +494,27 @@
                     <div class="footer_icons ">
                         <div class="footer_icon">
                             <a target="_blank" href="https://twitter.com/techhiringarm">
-                                <img loading="lazy" src="./assets/images/_x30_4.Twitter.svg" alt="twitter">
+                                <img loading="lazy" src="./assets/images/Group 1632.png" alt="twitter">
                             </a>
                         </div>
                         <div class="footer_icon">
                             <a target="_blank" href="https://www.youtube.com/@TechHiringArm">
-                                <img loading="lazy" src="./assets/images/youtube.svg" alt="youtube">
+                                <img loading="lazy" src="./assets/images/Group 1631.png" alt="youtube">
                             </a>
                         </div>
                         <div class="footer_icon">
                             <a target="_blank" href="https://www.instagram.com/techhiringarm/">
-                                <img loading="lazy" src="./assets/images/Group 1242.svg" alt="instagram">
+                                <img loading="lazy" src="./assets/images/Group 1630.png" alt="instagram">
                             </a>
                         </div>
                         <div class="footer_icon">
                             <a target="_blank" href="https://www.facebook.com/TechHiringArm/">
-                                <img loading="lazy" src="./assets/images/Group 1243.svg" alt="facebook">
+                                <img loading="lazy" src="./assets/images/Group 1629.png" alt="facebook">
                             </a>
                         </div>
                         <div class="footer_icon">
                             <a target="_blank" href="https://eg.linkedin.com/company/techhiringarm">
-                                <img loading="lazy" src="./assets/images/Group 1241.svg" alt="linkedin">
+                                <img loading="lazy" src="./assets/images/Group 1628.png" alt="linkedin">
                             </a>
                         </div>
                     </div>
@@ -530,10 +522,11 @@
                 <div class="footer_content row">
                     <div class="col-6 col-lg-3">
                         <p class="footer_content_heading">Products</p>
-                        <p class="footer_content_sub_heading">Recruitment</p>
-                        <p class="footer_content_sub_heading">Assessment</p>
-                        <p class="footer_content_sub_heading">Expert Interview</p>
-                        <p class="footer_content_sub_heading">Onboarding</p>
+                        <p class="footer_content_sub_heading"><a href="./products.html#find_techies_now_recruitment">Recruitment</a></p>
+                        <p class="footer_content_sub_heading"><a href="./products.html#find_techies_now_assessment">Assessment</a></p>
+                        <p class="footer_content_sub_heading"><a href="./products.html#evaluate_techies_now">Expert
+                                Interview</a></p>
+                        <p class="footer_content_sub_heading"><a href="#build_team">Onboarding</a></p>
                     </div>
                     <div class="col-6 col-lg-3">
                         <p class="footer_content_heading">Pages</p>
@@ -546,26 +539,38 @@
                         <p class="footer_content_heading">Contact</p>
                         <p class="footer_content_sub_heading">
                             <a target="_blank" href="https://api.whatsapp.com/send?phone=201023253409">
-                                <img loading="lazy" src="./assets/images/Image 62.png" alt="">
+                                <img style="
+                                    max-width: 24px;
+                                    max-height: 24px;
+                                " loading="lazy" src="./assets/images/Image 124.png" alt="whatsapp">
                                 +201023253409
                             </a>
                         </p>
                         <p class="footer_content_sub_heading">
                             <a target="_blank" href="mailto:info@techiematter.com">
-                                <img loading="lazy" src="./assets/images/Image 63.png" alt="">
+                                <img style="
+                                    max-width: 24px;
+                                    max-height: 24px;
+                                    vertical-align: top;
+                                " loading="lazy" src="./assets/images/Image 125.png" alt="email">
                                 info@techiematter.com
                             </a>
                         </p>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <p class="footer_content_heading"><a style="color: inherit;" target="_blank" href="#">Terms &
+                        <p class="footer_content_heading"><a style="color: inherit;"
+                                href="./terms-conditions.html">Terms &
                                 Conditions</a></p>
-                        <p class="footer_content_heading"><a style="color: inherit;" target="_blank" href="#">Privacy
+                        <p class="footer_content_heading"><a style="color: inherit;"
+                                href="./privacy-policy.html">Privacy
                                 Policy</a></p>
                         <p class="backed_by">Backed by</p>
                         <p class="footer_500">
                             <img loading="lazy" src="./assets/images/Image 72.png" alt="">
-                            <img loading="lazy" src="./assets/images/Image 73.png" alt="">
+                            <img loading="lazy" src="./assets/images/Image 127.png" alt="" style="
+                                   max-width: 40px;
+                                   max-height: 30px;
+                            ">
                         </p>
                     </div>
 
