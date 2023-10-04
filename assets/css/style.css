@@ -85,7 +85,12 @@
     filter: grayscale(1);
 }
 
-.trusted_company_container img:hover {
+img.contrast {
+    filter: contrast(.5);
+}
+
+.trusted_company_container img:hover,
+.contrast:hover {
     filter: grayscale(0);
 }
 
@@ -271,10 +276,11 @@
         width: 100%;
         height: 100%;
     }
-        .see_how,
-        .book_demo_container {
-            margin: auto;
-        }
+
+    .see_how,
+    .book_demo_container {
+        margin: auto;
+    }
 
 
 

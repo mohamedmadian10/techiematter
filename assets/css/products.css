@@ -188,3 +188,9 @@
         min-height: 600px;
     }
 }
+
+@media (min-width: 1200px) {
+    .heading-gif img {
+        padding-top: 50%;
+    }
+}

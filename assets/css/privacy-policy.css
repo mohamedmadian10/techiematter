@@ -9,6 +9,9 @@ main h3, main p, main h5 {
     color: #061455;
     padding: 8px 0;
 }
+main li {
+    color: #061455;
+}
 main h3 {
     font-weight: bold;
 }
